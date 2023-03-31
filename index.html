@@ -10,75 +10,91 @@
 			margin: 0;
 			padding: 0;
 		}
+        header {
+		background-color: #333;
+		color: white;
+		padding: 20px;
+		text-align: center;
+	}
 
-		header {
-			background-color: #333;
-			color: white;
-			padding: 20px;
-			text-align: center;
-		}
+	nav {
+		background-color: #f2f2f2;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
 
-		nav {
-			background-color: #f2f2f2;
-			display: flex;
-			justify-content: center;
-			padding: 10px;
-		}
+	nav a {
+		color: black;
+		font-size: 20px;
+		margin: 0 10px;
+		text-decoration: none;
+		font-weight: bold;
+		transition: color 0.3s ease-in-out;
+	}
 
-		nav a {
-			color: black;
-			font-size: 20px;
-			margin: 0 10px;
-			text-decoration: none;
-		}
+	nav a:hover {
+		color: #333;
+	}
 
-		nav a:hover {
-			color: #333;
-			font-weight: bold;
-		}
+	main {
+		padding: 20px;
+		max-width: 800px;
+		margin: 0 auto;
+	}
 
-		main {
-			padding: 20px;
-			max-width: 800px;
-			margin: 0 auto;
-		}
+	h1 {
+		margin-top: 0;
+		font-size: 48px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
 
-		h1 {
-			margin-top: 0;
-		}
+	h2 {
+		margin-top: 30px;
+		font-size: 36px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
 
-		h2 {
-			margin-top: 30px;
-		}
+	p {
+		margin-bottom: 20px;
+		font-size: 18px;
+		line-height: 1.5;
+	}
 
-		ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 18px;
+		line-height: 1.5;
+	}
 
-		li {
-			margin-bottom: 10px;
-		}
+	li {
+		margin-bottom: 10px;
+	}
 
-		.video-container {
-			position: relative;
-			padding-bottom: 56.25%;
-			padding-top: 30px;
-			height: 0;
-			overflow: hidden;
-		}
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+	}
 
-		.video-container iframe,
-		.video-container object,
-		.video-container embed {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-	</style>
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
 </head>
 <body>
 	<header>
@@ -92,7 +108,7 @@
 	</nav>
 	<main>
 		<h2 id="overview">Overview</h2>
-		<p>A description of the program learning outcomes:</p>
+		<h3 id="description"> A description of the program learning outcomes</h3>
 		<ul>
 			<li>1. Collect, store, and access data by identifying and leveraging applicable technologies: Students will learn how to identify and use appropriate technologies to collect, store, and access data. This includes understanding the basics of databases, data warehousing, and big data technologies.</li>
 			<li>2. Create actionable insight across a range of contexts (e.g. societal, business, political), using data and the full data science life cycle: Students will learn how to use the full data science life cycle to create actionable insight across different contexts, including societal, business, and political. This includes understanding the problem domain, acquiring and cleaning data, developing and testing models, and deploying models to generate insights.</li>
@@ -100,7 +116,7 @@
             <li>4. Communicate insights gained via visualization and analytics to a broad range of audiences (including project sponsors and technical team leads): Students will learn how to communicate insights gained via visualization and analytics to a broad range of audiences, including project sponsors and technical team leads. This includes understanding how to create effective visualizations and reports, tailoring communication to the audience, and presenting findings in a clear and concise manner</li>
             <li>5. Apply ethics in the development, use and evaluation of data and predictive models (e.g., fairness, bias, transparency, privacy): Students will learn how to apply ethics in the development, use, and evaluation of data and predictive models. This includes understanding the principles of fairness, bias, transparency, and privacy, and applying these principles to data science projects. Students will also learn about legal and regulatory frameworks governing data privacy and security</li>
 		</ul>
-		<p>A high-level description of each project included in the portfolio:</p>
+        <h3 id="project-description"> High-level description of each project</h3>
 		<ul>
 			<li>Fake News Detection: I worked alongside this project with a group of researchers and professors from Newhouse School of Communication
                 This project is a his research is part of the SemaSphere project, which supports the Defense Advanced Research Projects Agency (DARPA) Semantic Forensics (SemaFor) Program by curating and falsifying an extensive multi-modal collection to be used for training and evaluating technologies that detect, attribute, and characterize (DAC) falsified media (e.g., text, audio, image, and video). 
@@ -117,7 +133,7 @@
                 A text to summary generation model was created to generated Summaries for News Articles. Training data was pre-processed into text articles and news headlines as summary for the articles for training the Seq2Seq model.Summaries of the test data were compared with the actual summaries using Cosine similarity to find a 69% similarity.
             </li>
 		</ul>
-		<p>An explanation of how you achieved the program learning outcomes:</p>
+        <h3 id="project-learnings">An explanation of how I achieved the program learning outcomes:</h3>
 		<ul>
 			<li>Data acquisition was the paramount and the starting of all my projects. While working for the Fake News Detection project, I collect data from internet for domain knowledge of Mass Media Communicatins. I researched methodologies in a specific domain and was able to understand and apply it with the data science techniques.
                 In Gravity Spy project, I used Google Analytics api with python to download data which was needed for the Analysis. Upon initial analysis I found that the data with me was incomplete and it didn't have all the details. Thus, I requested from the senior researchers for a specific kind of data which would be useful in the analysis.
