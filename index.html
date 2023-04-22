@@ -10,80 +10,91 @@
 			margin: 0;
 			padding: 0;
 		}
-		header {
-			background-color: #333;
-			color: white;
-			padding: 20px;
-			text-align: center;
-		}
-		nav {
-			background-color: #f2f2f2;
-			display: flex;
-			justify-content: center;
-			padding: 10px;
-		}
-		nav a {
-			color: black;
-			font-size: 20px;
-			margin: 0 10px;
-			text-decoration: none;
-			font-weight: bold;
-			transition: color 0.3s ease-in-out;
-		}
-		nav a:hover {
-			color: #333;
-		}
-		main {
-			padding: 20px;
-			max-width: 800px;
-			margin: 0 auto;
-		}
-		h1 {
-			margin-top: 0;
-			font-size: 48px;
-			font-weight: bold;
-			text-transform: uppercase;
-			letter-spacing: 2px;
-		}
-		h2 {
-			margin-top: 30px;
-			font-size: 36px;
-			font-weight: bold;
-			text-transform: uppercase;
-			letter-spacing: 1px;
-		}
-		p {
-			margin-bottom: 20px;
-			font-size: 18px;
-			line-height: 1.5;
-		}
-		ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-			font-size: 18px;
-			line-height: 1.5;
-		}
-		li {
-			margin-bottom: 10px;
-		}
-		.video-container {
-			position: relative;
-			padding-bottom: 56.25%;
-			padding-top: 30px;
-			height: 0;
-			overflow: hidden;
-		}
-		.video-container iframe,
-		.video-container object,
-		.video-container embed {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-	</style>
+        header {
+		background-color: #333;
+		color: white;
+		padding: 20px;
+		text-align: center;
+	}
+
+	nav {
+		background-color: #f2f2f2;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+
+	nav a {
+		color: black;
+		font-size: 20px;
+		margin: 0 10px;
+		text-decoration: none;
+		font-weight: bold;
+		transition: color 0.3s ease-in-out;
+	}
+
+	nav a:hover {
+		color: #333;
+	}
+
+	main {
+		padding: 20px;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	h1 {
+		margin-top: 0;
+		font-size: 48px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+
+	h2 {
+		margin-top: 30px;
+		font-size: 36px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+	p {
+		margin-bottom: 20px;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
 </head>
 <body>
 	<header>
@@ -92,63 +103,72 @@
 	<nav>
 		<a href="#overview">Overview</a>
 		<a href="#projects">Projects</a>
-		<a href="#video">Video Presentation</a>
+		<a href="Learning_outcomes">Learning Outcomes</a>
 		<a href="#blog">Blog Post</a>
 	</nav>
 	<main>
 		<h2 id="overview">Overview</h2>
-		<h3 id="learning-outcomes">Learning Outcomes</h3>
+		<h3 id="A description of the program learning outcomes"> A description of the program learning outcomes</h3>
 		<ul>
 			<li>1. Collect, store, and access data by identifying and leveraging applicable technologies: Students will learn how to identify and use appropriate technologies to collect, store, and access data. This includes understanding the basics of databases, data warehousing, and big data technologies.</li>
-			<li>2. Create actionable insight across a range of contexts (e.g. societal, business, political), using data and the full data science life cycle: Students will learn how to use the full data science life cycle to create actionable insight across different contexts, including societal, business, and political. This includes understanding the problem domain, acquiring and cleaning data, developing and testing
-                <li>3. Use programming languages such as R and Python to support the generation of actionable insight: Students will learn how to use programming languages such as R and Python to support the generation of actionable insight. This includes understanding the syntax and data structures of these languages, using libraries and tools to perform data analysis and modeling, and developing code to support data science projects</li>
-                <li>4. Communicate insights gained via visualization and analytics to a broad range of audiences (including project sponsors and technical team leads): Students will learn how to communicate insights gained via visualization and analytics to a broad range of audiences, including project sponsors and technical team leads. This includes understanding how to create effective visualizations and reports, tailoring communication to the audience, and presenting findings in a clear and concise manner</li>
-                <li>5. Apply ethics in the development, use and evaluation of data and predictive models (e.g., fairness, bias, transparency, privacy): Students will learn how to apply ethics in the development, use, and evaluation of data and predictive models. This includes understanding the principles of fairness, bias, transparency, and privacy, and applying these principles to data science projects. Students will also learn about legal and regulatory frameworks governing data privacy and security</li>
-            </ul>
-            <h3 id="project-description"> project-description</h3>
-            <ul>
-                <li>Fake News Detection: I worked alongside this project with a group of researchers and professors from Newhouse School of Communication
-                    This project is a his research is part of the SemaSphere project, which supports the Defense Advanced Research Projects Agency (DARPA) Semantic Forensics (SemaFor) Program by curating and falsifying an extensive multi-modal collection to be used for training and evaluating technologies that detect, attribute, and characterize (DAC) falsified media (e.g., text, audio, image, and video). 
-                    Currently, I am working with Dr. Jason Davis in his research grant to detect fake news, incorporating my understanding of Language Analytics to detect Fake News Detection. I also assist in generating synthetic media to aid in detection. Alongside I am working on Developing a conceptual ontology data architecture for characterizing Fake News and Synthetic Media by generating 4 different ontologies and integrating them together.
-                    The Idea is to use 4 types of Ontologies and integrate them into each other. These 4 types of ontologies are of different conflicting domains. These Ontologies would be attacker, target, method of influence, facts ontologies. Upon their creation, we would design new vocabularies which would define how are they integrated to each other.
-                    This would remove the ambiguity in the news presented to us. We would be able to identify the context associated with the news we need to check. 
-                </li>
-                <li>Gravity Spy: I worked on this project with a group of researchers and professors from School of Information Studies and other Universities. 
-                    Supporting Citizen Scientists in advanced scientific work is the main focus of this project. I contributed my data science analytical skills in analyzing trace data of 70k users from a website and identified user activities which would increase their performance. I also assisted in paper revisions and worked with a professors from other Universities.
-                    In this project we have 70k volunteers who are contributing in this project as individual contributors for classifying glitches in gravitational waves. Their work supports the enhancement of detection of glitches and helps researchers in this field focus on more complicated tasks. Thus, my contribution in this project was to enhance the performance of 
-                    these volunteers and enable them to perform tasks with scientific knowledge. I analyzed and found sequential patterns in their data activity on the website. This helped the project to focus on their design of the web application and initiate's volunteers focus on activities which enhances their performance.    
-                </li>
-                <li>Text Summarization: Text summarization in Natural Language Processing is the process of condensing information in large texts to make them easier to consume. It is important that the summary be fluent, continuous, and show the most important information from the original work. Furthermore, a concise and well-written summary can assist people in better comprehending the text material in a short period of time. This project produced a fluent and concise summary of a given text document by the method of Abstractive text summarization using LSTM-CNN based deep learning.
-                    A text to summary generation model was created to generated Summaries for News Articles. Training data was pre-processed into text articles and news headlines as summary for the articles for training the Seq2Seq model.Summaries of the test data were compared with the actual summaries using Cosine similarity to find a 69% similarity.
-                </li>
-            </ul>
-            <h3 id="An explanation of how I achieved the program learning outcomes">An explanation of how I achieved the program learning outcomes</h3>
-            <ul>
-                <li>Data acquisition was the paramount and the starting of all my projects. While working for the Fake News Detection project, I collect data from internet for domain knowledge of Mass Media Communicatins. I researched methodologies in a specific domain and was able to understand and apply it with the data science techniques.
-                    In Gravity Spy project, I used Google Analytics api with python to download data which was needed for the Analysis. Upon initial analysis I found that the data with me was incomplete and it didn't have all the details. Thus, I requested from the senior researchers for a specific kind of data which would be useful in the analysis.
-                    These datasources were in .csv format with millions of data entries, they were understood and then combined in a way that eased the further steps of the analysis.While creating the Text summarization model, I collected data from research papers and explored various sources of data to find a combination of news with headlines and the text article. I ensured to 
-                    provide references from places I had acquired data. 
-                </li>
-                <li>I acheived creating actionable insights while working on the Gravity Spy Project. Since there wasn't a set criteria on how to achieve the results. I first research methodologies which were relevant for my situation. In the end, upon discussion with the professors, we decided on a methodology which will highlight the descritive statistics of the target variable. Rather than predicting the occurence of the predictor variables we focussed on answers which highlighted the frequency of the occurence of the variable. 
-                    Rathen than performing TFIDF on each iteration of the variable, I took sequences of activities as a iteration which is synonymous with Motif analysis.I performed Sequential Data Analysis through relim and py-mining algorithm. Cleaned and transformed 7 million rows of historical trace data from 70,000 human volunteers. Evaluated the difference between two groups of volunteers.
-                </li>
-                <li>
-                    I used Python and R for the analysis of the datasets I had in Text Summarization project and Gravity Spy Project. Using Data Visualization like box-plots, violin plots, heat maps, histograms were the bread and butter of these projects. Without these visualization tools in R and Python, I would have never understood the dataset. They were also helpful in visualizaling the actionable insights from the TFIDF vectorizer of Gravity Spy project. 
-                    While working for the Wastewater Management systems at Syracuse University, I communicated results through heat maps and line plots visualizations every week about the spread of SARS-COV virus in the college. This also involved communicating with them on a daily basis verifying results of the analysis.
-                    Review of analysis and consistency was maintained of previous week's results with the next week's analysis. Insights were provided on each weeks analysis along with the visualization. Also prior weeks' analysis were compared with the new reports to provide insights into the change of spread of SARS-COV virus
-                </li>
-                <li>Ethical standards were maintained in all my works as a data professional in these projects. While working for Fake News Detection, I ensure I maintain secrecy in the news and the synthetic media generated for the analysis. Data collected sources and references are properly cited and it is ensured I am not stealing anyone's intellectual property while collecting the data. 
-                    Furthermore, the topics of the projects are kept and the fake news curated is not shared on social media or with anyone else. Manipulations created are deleted after being uploaded on a secure drive. One of the reasons is to avoid mass hysteria. While working in the project Gravity Spy, the data sources which are the intellectual property of Zooniverse weren't shared with anyone outside the affiliation. 
-                    Same is the scenario about the wastewater management reports, the results of the SARS-COV virus spread weren't shared with anyone besides the organization itself because the university's masking regulations and social distance are dependent on that. It is also to avoid mass hysteria in this situation
-                </li>
-            </ul>
-    
-            <h2 id="projects">Projects</h2>
-            <h3>Fake News Detection</h3>
-            <p>Ontology Creation, an intelligent semantic system which could be used to assist the detection of Fake News project is the project is my area of focus. Generating synthetic media and defining criteria and vocabularies to be used in the Semantic knowledge graph. Working for the Newhouse school of communication at Syracuse University , funded by DARPA, the project is to detect Synthetic media and news articles. This research is part of the SemaSphere project, which supports the Defense Advanced Research Projects Agency (DARPA) Semantic Forensics (SemaFor) Program by curating and falsifying an extensive multi-modal collection to be used for training and evaluating technologies that detect, attribute, and characterize (DAC) falsified media (e.g., text, audio, image, and video).</p>
-            
-            <h3>Gravity Spy</h3>
-            <p>Analyzed 7 million rows of historical trace data and performed Sequential Data analysis through relim and pymining algorithms. Imported dataset from Google Analytics using Google Analytics API in python. Analyzed motif of volunteer’s sequential activity by implementing a designing a customized TFIDF model from scratch. Worked for project ‘Gravity Spy’ with School of Information Studies school at Syracuse University with a goal of enabling human volunteers to perform advanced tasks and identify glitches in gravitational waves, funded by National Science Foundation HCC Grant 21-06865.</p>
-            
-            <h3>Text Summarization</h3>
-            <p>Designed a text summarization model for ‘Inshorts’ news articles with Seq2Seq Modelling. 5 Gated Neural network used with 3 LSTMs in Encoder , 1 LSTM in Decoder and ending with a Dense Layer. The vocabulary of words taken ,in place of alphabets and trained the model for 50 epochs. Encoder size set to 100 words and 15 words of decoder. The model generated the predicted summaries of text articles. We later compared predictions with original summaries leveraging cosine similarity.</p>        
+			<li>2. Create actionable insight across a range of contexts (e.g. societal, business, political), using data and the full data science life cycle: Students will learn how to use the full data science life cycle to create actionable insight across different contexts, including societal, business, and political. This includes understanding the problem domain, acquiring and cleaning data, developing and testing models, and deploying models to generate insights.</li>
+			<li>3. Use programming languages such as R and Python to support the generation of actionable insight: Students will learn how to use programming languages such as R and Python to support the generation of actionable insight. This includes understanding the syntax and data structures of these languages, using libraries and tools to perform data analysis and modeling, and developing code to support data science projects</li>
+            <li>4. Communicate insights gained via visualization and analytics to a broad range of audiences (including project sponsors and technical team leads): Students will learn how to communicate insights gained via visualization and analytics to a broad range of audiences, including project sponsors and technical team leads. This includes understanding how to create effective visualizations and reports, tailoring communication to the audience, and presenting findings in a clear and concise manner</li>
+            <li>5. Apply ethics in the development, use and evaluation of data and predictive models (e.g., fairness, bias, transparency, privacy): Students will learn how to apply ethics in the development, use, and evaluation of data and predictive models. This includes understanding the principles of fairness, bias, transparency, and privacy, and applying these principles to data science projects. Students will also learn about legal and regulatory frameworks governing data privacy and security</li>
+		</ul>
+        <h3 id="project-description"> project-description</h3>
+		<ul>
+			<li>Fake News Detection: I worked alongside this project with a group of researchers and professors from Newhouse School of Communication
+                This project is a his research is part of the SemaSphere project, which supports the Defense Advanced Research Projects Agency (DARPA) Semantic Forensics (SemaFor) Program by curating and falsifying an extensive multi-modal collection to be used for training and evaluating technologies that detect, attribute, and characterize (DAC) falsified media (e.g., text, audio, image, and video). 
+                Currently, I am working with Dr. Jason Davis in his research grant to detect fake news, incorporating my understanding of Language Analytics to detect Fake News Detection. I also assist in generating synthetic media to aid in detection. Alongside I am working on Developing a conceptual ontology data architecture for characterizing Fake News and Synthetic Media by generating 4 different ontologies and integrating them together.
+                The Idea is to use 4 types of Ontologies and integrate them into each other. These 4 types of ontologies are of different conflicting domains. These Ontologies would be attacker, target, method of influence, facts ontologies. Upon their creation, we would design new vocabularies which would define how are they integrated to each other.
+                This would remove the ambiguity in the news presented to us. We would be able to identify the context associated with the news we need to check. 
+            </li>
+			<li>Gravity Spy: I worked on this project with a group of researchers and professors from School of Information Studies and other Universities. 
+                Supporting Citizen Scientists in advanced scientific work is the main focus of this project. I contributed my data science analytical skills in analyzing trace data of 70k users from a website and identified user activities which would increase their performance. I also assisted in paper revisions and worked with a professors from other Universities.
+                In this project we have 70k volunteers who are contributing in this project as individual contributors for classifying glitches in gravitational waves. Their work supports the enhancement of detection of glitches and helps researchers in this field focus on more complicated tasks. Thus, my contribution in this project was to enhance the performance of 
+                these volunteers and enable them to perform tasks with scientific knowledge. I analyzed and found sequential patterns in their data activity on the website. This helped the project to focus on their design of the web application and initiate's volunteers focus on activities which enhances their performance.    
+            </li>
+			<li>Text Summarization: Text summarization in Natural Language Processing is the process of condensing information in large texts to make them easier to consume. It is important that the summary be fluent, continuous, and show the most important information from the original work. Furthermore, a concise and well-written summary can assist people in better comprehending the text material in a short period of time. This project produced a fluent and concise summary of a given text document by the method of Abstractive text summarization using LSTM-CNN based deep learning.
+                A text to summary generation model was created to generated Summaries for News Articles. Training data was pre-processed into text articles and news headlines as summary for the articles for training the Seq2Seq model.Summaries of the test data were compared with the actual summaries using Cosine similarity to find a 69% similarity.
+            </li>
+		</ul>
+		<h2 id="Learning_outcomes">Learning Outcomes Acheived</h2>
+        <h3 id="An explanation of how I achieved the program learning outcomes">An explanation of how I achieved the program learning outcomes</h3>
+		<ul>
+			<li>Data acquisition was the paramount and the starting of all my projects. While working for the Fake News Detection project, I collect data from internet for domain knowledge of Mass Media Communicatins. I researched methodologies in a specific domain and was able to understand and apply it with the data science techniques.
+                In Gravity Spy project, I used Google Analytics api with python to download data which was needed for the Analysis. Upon initial analysis I found that the data with me was incomplete and it didn't have all the details. Thus, I requested from the senior researchers for a specific kind of data which would be useful in the analysis.
+                These datasources were in .csv format with millions of data entries, they were understood and then combined in a way that eased the further steps of the analysis.While creating the Text summarization model, I collected data from research papers and explored various sources of data to find a combination of news with headlines and the text article. I ensured to 
+                provide references from places I had acquired data. 
+            </li>
+			<li>I acheived creating actionable insights while working on the Gravity Spy Project. Since there wasn't a set criteria on how to achieve the results. I first research methodologies which were relevant for my situation. In the end, upon discussion with the professors, we decided on a methodology which will highlight the descritive statistics of the target variable. Rather than predicting the occurence of the predictor variables we focussed on answers which highlighted the frequency of the occurence of the variable. 
+                Rathen than performing TFIDF on each iteration of the variable, I took sequences of activities as a iteration which is synonymous with Motif analysis.I performed Sequential Data Analysis through relim and py-mining algorithm. Cleaned and transformed 7 million rows of historical trace data from 70,000 human volunteers. Evaluated the difference between two groups of volunteers.
+            </li>
+            <li>
+                I used Python and R for the analysis of the datasets I had in Text Summarization project and Gravity Spy Project. Using Data Visualization like box-plots, violin plots, heat maps, histograms were the bread and butter of these projects. Without these visualization tools in R and Python, I would have never understood the dataset. They were also helpful in visualizaling the actionable insights from the TFIDF vectorizer of Gravity Spy project. 
+                While working for the Wastewater Management systems at Syracuse University, I communicated results through heat maps and line plots visualizations every week about the spread of SARS-COV virus in the college. This also involved communicating with them on a daily basis verifying results of the analysis.
+                Review of analysis and consistency was maintained of previous week's results with the next week's analysis. Insights were provided on each weeks analysis along with the visualization. Also prior weeks' analysis were compared with the new reports to provide insights into the change of spread of SARS-COV virus
+            </li>
+			<li>Ethical standards were maintained in all my works as a data professional in these projects. While working for Fake News Detection, I ensure I maintain secrecy in the news and the synthetic media generated for the analysis. Data collected sources and references are properly cited and it is ensured I am not stealing anyone's intellectual property while collecting the data. 
+                Furthermore, the topics of the projects are kept and the fake news curated is not shared on social media or with anyone else. Manipulations created are deleted after being uploaded on a secure drive. One of the reasons is to avoid mass hysteria. While working in the project Gravity Spy, the data sources which are the intellectual property of Zooniverse weren't shared with anyone outside the affiliation. 
+                Same is the scenario about the wastewater management reports, the results of the SARS-COV virus spread weren't shared with anyone besides the organization itself because the university's masking regulations and social distance are dependent on that. It is also to avoid mass hysteria in this situation
+            </li>
+		</ul>
+
+		<h2 id="projects">Projects</h2>
+		<h3>Fake News Detection</h3>
+		<p>Ontology Creation, an intelligent semantic system which could be used to assist the detection of Fake News project is the project is my area of focus. Generating synthetic media and defining criteria and vocabularies to be used in the Semantic knowledge graph. Working for the Newhouse school of communication at Syracuse University , funded by DARPA, the project is to detect Synthetic media and news articles. This research is part of the SemaSphere project, which supports the Defense Advanced Research Projects Agency (DARPA) Semantic Forensics (SemaFor) Program by curating and falsifying an extensive multi-modal collection to be used for training and evaluating technologies that detect, attribute, and characterize (DAC) falsified media (e.g., text, audio, image, and video).</p>
+        
+        <h3>Gravity Spy</h3>
+        <p>Analyzed 7 million rows of historical trace data and performed Sequential Data analysis through relim and pymining algorithms. Imported dataset from Google Analytics using Google Analytics API in python. Analyzed motif of volunteer’s sequential activity by implementing a designing a customized TFIDF model from scratch. Worked for project ‘Gravity Spy’ with School of Information Studies school at Syracuse University with a goal of enabling human volunteers to perform advanced tasks and identify glitches in gravitational waves, funded by National Science Foundation HCC Grant 21-06865.</p>
+		
+        <h3>Text Summarization</h3>
+        <p>Designed a text summarization model for ‘Inshorts’ news articles with Seq2Seq Modelling. 5 Gated Neural network used with 3 LSTMs in Encoder , 1 LSTM in Decoder and ending with a Dense Layer. The vocabulary of words taken ,in place of alphabets and trained the model for 50 epochs. Encoder size set to 100 words and 15 words of decoder. The model generated the predicted summaries of text articles. We later compared predictions with original summaries leveraging cosine similarity.</p>
+
+		<h2 id="blog"></h2>
+		<h3>Managing Data Science Projects and Ethical Concerns</h3>
+		<h4 href="https://medium.com/@pranavsharma0838/managing-data-science-projects-and-addressing-ethical-concerns-2735716bdb62"></h4>
+
+		<h3>Linked Data Enterprise Systems</h3>
+		<h4 href="https://medium.com/@pranavsharma0838/linked-data-enterprise-systems-for-engineering-data-925c9f89835d"></h4>
+
